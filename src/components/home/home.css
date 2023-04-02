@@ -1,0 +1,12 @@
+.my-2{
+    margin: 1vh;
+}
+
+img{
+    max-height: 287px;
+    max-width: 400px;
+}
+
+body{
+    background-color: rgb(87, 87, 87);
+}
