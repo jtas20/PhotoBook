@@ -1,6 +1,7 @@
 import "./home.css"
 import Header from '../header/header';
 import Footer from '../footer/footer';
+import imgThumbNails from '../../assets/thumbnail.svg';
 
 function Home(){
     return(
@@ -23,7 +24,7 @@ function Home(){
                     <div class="row">
                         <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="https://images7.alphacoders.com/630/630555.jpg" alt="Card image cap"></img>
+                            <img class="card-img-top" src={imgThumbNails} alt="Card image cap"></img>
                             <div class="card-body">
                             <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco maior.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -39,7 +40,7 @@ function Home(){
 
                         <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="https://images6.alphacoders.com/485/485738.jpg" alt="Card image cap"></img>
+                            <img class="card-img-top" src={imgThumbNails} alt="Card image cap"></img>
                             <div class="card-body">
                             <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco maior.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -55,7 +56,7 @@ function Home(){
 
                         <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="https://p4.wallpaperbetter.com/wallpaper/64/155/676/retro-chevrolet-classic-1967-wallpaper-preview.jpg" alt="Card image cap"></img>
+                            <img class="card-img-top" src={imgThumbNails} alt="Card image cap"></img>
                             <div class="card-body">
                             <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco maior.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -71,7 +72,7 @@ function Home(){
 
                         <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="https://p4.wallpaperbetter.com/wallpaper/585/781/185/chevrolet-the-series-car-actor-wallpaper-preview.jpg" alt="Card image cap"></img>
+                            <img class="card-img-top" src={imgThumbNails} alt="Card image cap"></img>
                             <div class="card-body">
                             <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco maior.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -87,7 +88,7 @@ function Home(){
 
                         <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="https://p4.wallpaperbetter.com/wallpaper/643/151/805/1967-chevrolet-convertible-custom-wallpaper-preview.jpg" alt="Card image cap"></img>
+                            <img class="card-img-top" src={imgThumbNails} alt="Card image cap"></img>
                             <div class="card-body">
                             <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco maior.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -103,7 +104,7 @@ function Home(){
 
                         <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="https://p4.wallpaperbetter.com/wallpaper/812/417/75/chevrolet-supernatural-supernatural-chevy-wallpaper-preview.jpg" alt="Card image cap"></img>
+                            <img class="card-img-top" src={imgThumbNails} alt="Card image cap"></img>
                             <div class="card-body">
                             <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco maior.</p>
                             <div class="d-flex justify-content-between align-items-center">

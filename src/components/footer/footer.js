@@ -7,7 +7,7 @@ function Footer(){
             <p class="float-right">
                 <a href="#">Voltar ao topo</a>
             </p>
-            <p>©2023 PhotoBook, TS</p>
+            <p>©2023 PhotoBook, PB</p>
             </div>
         </footer>
     )
